@@ -1,0 +1,38 @@
+.cont{
+    margin-top: 10px;
+}
+.task{
+    font-size: 1em;
+}
+.addtask{
+    width:fit-content;
+    margin:auto;
+}
+.left{
+    border: 1px solid red;
+   border-radius: 20px;
+}
+.right{
+    border: 1px solid red ;
+    border-radius: 20px;
+}
+.inpt{
+    background-color:  rgb(212, 149, 175);
+    border-style: none;
+    margin-top: 5px;
+}
+
+.btn{
+    background-color: rgb(130, 130, 234);
+    border-radius:10px;
+}
+@media only screen and (max-width:500px) {
+    .left{
+        border: 1px solid green;
+    }
+    .btn{
+        border-radius: 10px;
+        font-size: 10px;
+    }
+    
+}
